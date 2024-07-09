@@ -219,3 +219,62 @@ body {
 .card-2-tittle {
   max-width: 477px;
 }
+
+/*=== Inspiration Section ===*/
+
+.inspiration-section {
+  margin-top: 90px;
+}
+
+.inspiration-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.inspiration-tittle {
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 37px;
+}
+
+.inspiration-des {
+  margin-bottom: 8px;
+  max-width: 852px;
+  text-wrap: pretty;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.inspiration-author {
+  margin-bottom: 48px;
+  margin-left: 280px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.inspiration-video {
+  width: 100%;
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(13, 19, 33, 0.2);
+  padding: 32px;
+}
+
+.inspiration-video-iframe {
+  display: inline-block;
+  height: 550px;
+  width: 100%;
+  border-radius: 16px;
+}
