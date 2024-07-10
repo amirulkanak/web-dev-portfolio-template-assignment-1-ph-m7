@@ -15,6 +15,12 @@ a {
   text-decoration: inherit;
 }
 
+input,
+button,
+::placeholder {
+  font-family: inherit;
+}
+
 body {
   background-color: rgba(255, 255, 255, 1);
   font-family: 'Azeret Mono', monospace;
@@ -370,4 +376,182 @@ body {
 
 .js-card-bg {
   background-color: rgba(255, 223, 0, 0.05);
+}
+
+/*=== Next Target Section ===*/
+
+.next-target-section {
+  margin-top: 111px;
+}
+
+.next-target-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.next-target-tittle {
+  margin-bottom: 24px;
+  font-size: 32px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 37px;
+}
+
+.next-target-des {
+  margin-bottom: 48px;
+  max-width: 852px;
+  text-wrap: pretty;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+/* = card = */
+
+.next-target-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.next-target-card {
+  min-height: 219px;
+  width: 100%;
+  border-radius: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(13, 19, 33, 0.15);
+  background-color: rgba(255, 255, 255, 1);
+  padding: 40px;
+}
+
+.next-target-card-body {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.next-target-card-tittle {
+  margin-bottom: 8px;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: normal;
+  line-height: 36px;
+}
+
+.next-target-card-des {
+  margin-bottom: 24px;
+  text-wrap: pretty;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  opacity: 0.7;
+}
+
+.next-target-card-btn {
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 19px;
+  text-decoration-line: underline;
+}
+
+/*=== Support Section ===*/
+
+.support-section {
+  margin-top: 49px;
+  height: 313px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.2) 0%,
+      rgba(0, 0, 0, 0.2) 100%
+    ),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%),
+    url('../images/handshake-img.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.support-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.support-tittle {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 36px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.support-des {
+  margin-bottom: 24px;
+  max-width: 606px;
+  text-wrap: pretty;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0.7;
+}
+
+.support-input-btn {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.support-input {
+  width: 100%;
+  max-width: 548px;
+  border-radius: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgba(13, 19, 33, 0.15);
+  background-color: rgba(255, 255, 255, 1);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+}
+
+.support-input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 19px;
+  color: rgba(13, 19, 33, 0.4);
+}
+
+.support-btn {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 17px;
+  padding-bottom: 17px;
 }
