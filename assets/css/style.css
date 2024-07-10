@@ -555,3 +555,25 @@ body {
   padding-top: 17px;
   padding-bottom: 17px;
 }
+
+.footer {
+  margin-top: 80px;
+  height: 100px;
+  background-color: rgba(13, 19, 33, 0.03);
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.footer-content {
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-contact-links {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+}
